@@ -3,7 +3,6 @@ GEM
   specs:
     activesupport (3.0.3)
     addressable (2.2.2)
-    configuration (1.1.0)
     daemons (1.1.0)
     em-http-request (0.3.0)
       addressable (>= 2.0.0)
@@ -23,9 +22,7 @@ GEM
       git (>= 1.2.5)
       rubyforge (>= 2.0.0)
     json_pure (1.4.6)
-    launchy (0.3.7)
-      configuration (>= 0.0.5)
-      rake (>= 0.8.1)
+    launchy (2.0.3)
     nokogiri (1.4.4)
     rack (1.2.1)
     rake (0.8.7)
@@ -63,7 +60,7 @@ DEPENDENCIES
   haml (= 3.0.25)
   i18n
   jeweler
-  launchy (= 0.3.7)
+  launchy (= 2.0.3)
   nokogiri (= 1.4.4)
   rake (= 0.8.7)
   roxml
